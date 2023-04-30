@@ -107,8 +107,7 @@
      }
 
      .active_status{ 
-        left: 58%;
-        top: 260px;
+        display: none;
     }
 }
 
