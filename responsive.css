@@ -29,6 +29,11 @@
     .nick-name{
         top: 30PX;
     }
+
+    .active_status{ 
+        left: 65%;
+        top: 250px;
+    }
 }
 
 /* iphone 6/7/8 plus */
@@ -45,6 +50,11 @@
     .container_date{
         display: none;
      }
+
+     .active_status{ 
+        left: 62%;
+        top: 250px;
+    }
 }
 
 /* iphone x */
@@ -64,6 +74,11 @@
     .container_date{
        font-size: 13px;
        display: block;
+    }
+
+    .active_status{ 
+        left: 62%;
+        top: 260px;
     }
     
 }
@@ -90,6 +105,11 @@
     .container_date{
         display: block;
      }
+
+     .active_status{ 
+        left: 58%;
+        top: 260px;
+    }
 }
 
 /* ipad */
@@ -133,6 +153,26 @@
     .container_date{
         display: block;
      }
-
+     
+     .active_status{ 
+        left: 58%;
+        top: 385px;
+    }
     
+}
+
+/* ipad pro */
+@media screen  and (min-width:1024px){
+    .active_status{ 
+        left: 53%;
+        top: 385px;
+    }
+}
+
+/* ipad pro */
+@media screen  and (min-width:1920px){
+    .active_status{ 
+        left: 48%;
+        top: 372px;
+    }
 }

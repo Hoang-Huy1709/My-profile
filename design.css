@@ -36,49 +36,42 @@ li{
 
 .title{
     position: absolute;
-    top: 15px;
-    background-color: rgb(125, 60, 152,0.8);
-    width: 130px;
-    height: 30px;
-    border-top-right-radius: 7px;
-    border-bottom-right-radius: 7px;
-    box-shadow: 3px 5px 5px rgb(0,0,0,0.7);
+    top: 0px;
+    left: 0px;
+    width: auto;
+    height: auto;
+    padding: 5px;
+    color: rgb(255,255,255,0.8);
+    padding-top: 5px;
     transition: 0.3s;
+    letter-spacing: 2px;
     animation-name: left;
     animation-duration: 1.5s;
     z-index: 1;
 }
 
 .title-p1{
-    font-family: 'Bungee', cursive;
-    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
     color: rgb(255,255,255,0.9);
-    margin-left: 5px;
     text-shadow: 2px 5px 5px rgb(0,0,0,0.3);
 }
 
 .title-right{
+    animation: right 1.5s;
     position: absolute;
-    font-family: 'Bungee', cursive;
-    color: rgb(255,255,255,0.7);
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255,255,255,0.5);
     font-size: 30px;
     top: 0px;
     right: 7px;
+    height: auto;;
+    z-index: 1;
+    letter-spacing: 2px;
     text-align: right;
 }
-
-.tr-p2{
-    position: absolute;
-    top: 30px;
-    right: 7px;
-}
-
-.tr-p3{
-    position: absolute;
-    top: 60px;
-    right: 7px;
-}
-
 
 .img-bg{
     background: linear-gradient(to bottom,rgb(0,0,0,0.0),rgb(0,0,0,0.3)), url(img/FullSizeRender.jpg) center/cover;
@@ -91,7 +84,28 @@ li{
     animation-duration: 1.5s;
 }
 
+.active_status{
+    position: absolute;
+    left: 52%;
+    top: 370px;
+    border: 3.5px solid rgb(255,255,255);
+    background: linear-gradient(to right,rgb(125, 60, 152),rgb(40, 116, 166));
+    display: flex;
+    color: rgb(255,255,255);
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 99px;
+    box-shadow: 0px 0px 15px rgb(255,255,255);
+    animation: bottoms 2.5s;
+}
 
+
+
+.img_zone i{
+    font-size: 20px;
+}
 
 .img-pr{
     width: 170px;
@@ -240,7 +254,6 @@ a{
 }
 
 .data_more{
-   
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -248,6 +261,7 @@ a{
     margin-bottom: 10px;
     gap: 10px;
 }
+
 
 .data_more span{
    padding-top: 30px;
