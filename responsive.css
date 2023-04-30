@@ -8,6 +8,10 @@
         top: 130px;
     }
 
+    .container_date{
+        display: none;
+     }
+
 
     .name{
         height: 100px;
@@ -36,6 +40,11 @@
     .contact-bt , .follow-bt{
         width: 180px;
     }
+
+
+    .container_date{
+        display: none;
+     }
 }
 
 /* iphone x */
@@ -46,6 +55,7 @@
 
     .img-pr{
         top: 160px;
+        left: 7%;
     }
 
     .contact-bt , .follow-bt{
@@ -55,6 +65,12 @@
     .span-more{
         height: 100px;
     }
+
+    .container_date{
+       font-size: 13px;
+       display: block;
+    }
+    
 }
 
 /* Small tablet */
@@ -75,6 +91,10 @@
     .follow-bt{
         margin-left: 15px;
     }
+
+    .container_date{
+        display: block;
+     }
 }
 
 /* ipad */
@@ -114,6 +134,10 @@
     .nick-name{
         font-size: 65px;
     }
+
+    .container_date{
+        display: block;
+     }
 
     
 }
