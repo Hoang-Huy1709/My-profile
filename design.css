@@ -145,8 +145,7 @@ a{
     font-weight: 600;
     font-size: 33px;
     text-shadow: 2px 3px 3px rgb(0,0,0,0.2);
-    top: 10px;
-    margin-top: 10px;
+    top: -3px;
     left: 10px;
     z-index: 1;
     animation-name: left;
