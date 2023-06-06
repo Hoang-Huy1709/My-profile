@@ -74,7 +74,7 @@ li{
 }
 
 .img-bg{
-    background: linear-gradient(to bottom,rgb(0,0,0,0.0),rgb(0,0,0,0.3)), url(img/FullSizeRender.jpg) center/cover;
+    background: linear-gradient(to bottom,rgb(0,0,0,0.0),rgb(0,0,0,0.3)), url(img/bg_image.jpg) center/cover;
     height: 240px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
