@@ -73,6 +73,10 @@ li{
     text-align: right;
 }
 
+a{
+    color: rgb(255,255,255,0.8);
+}
+
 .img-bg{
     background: linear-gradient(to bottom,rgb(0,0,0,0.0),rgb(0,0,0,0.3)), url(img/bg_image.jpg) center/cover;
     height: 240px;
