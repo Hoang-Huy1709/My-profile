@@ -20,7 +20,7 @@ body::-webkit-scrollbar {
   }
    
   body::-webkit-scrollbar-thumb {
-    background-image: linear-gradient(to top,rgb(125, 60, 152,0.8),rgb(40, 116, 166,0.8));
+    background: rgb(39, 55, 70);
     outline: none;
     border-radius: 99px;
   }
@@ -78,7 +78,7 @@ a{
 }
 
 .img-bg{
-    background: linear-gradient(to bottom,rgb(0,0,0,0.0),rgb(0,0,0,0.3)), url(img/bg_image.jpg) center/cover;
+    background: linear-gradient(to bottom,rgb(0,0,0,0.0),rgb(0,0,0,0.3)), url(img/bgg.jpeg) center/cover;
     height: 240px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -93,7 +93,7 @@ a{
     left: 52%;
     top: 370px;
     border: 3.5px solid rgb(255,255,255);
-    background: linear-gradient(to right,rgb(125, 60, 152),rgb(40, 116, 166));
+    background: linear-gradient(to right,rgb(23, 32, 42),rgb(40, 116, 166));
     display: flex;
     color: rgb(255,255,255);
     align-items: center;
@@ -140,7 +140,7 @@ a{
 
 .container_date h3{
    font-weight: 700;
-   color: rgb(125, 60, 152,0.8);
+   color: rgb(23, 32, 42);
    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -159,10 +159,10 @@ a{
 .full-name{
     position: absolute;
     font-family: 'Square Peg', cursive;
-    color: rgb(125, 60, 152,0.9);
+    color: rgb(23, 32, 42);
     font-weight: 600;
     font-size: 33px;
-    text-shadow: 2px 3px 3px rgb(0,0,0,0.2);
+    text-shadow: 2px 3px 3px rgb(23, 32, 42,0.3);
     top: -3px;
     left: 10px;
     z-index: 1;
@@ -171,7 +171,7 @@ a{
 }
 
 .nick-name{
-    color: rgb(0,0,0,0.7);
+    color: rgb(23, 32, 42);
     font-family: 'Bungee', cursive;
     position: absolute;
     font-size: 45px;
@@ -231,18 +231,17 @@ a{
 
 .contact-bt{
     background-color: rgb(255,255,255,0.9);
-    border: 3px solid rgb(125, 60, 152,0.8);
+    border: 3px solid rgb(23, 32, 42);
     border-radius: 99px;
     font-weight: 600;
-    color: rgb(125, 60, 152,0.8);
+    color: rgb(23, 32, 42);
 }
 
 .follow-bt{
-    background-color: rgb(125, 60, 152,0.8);
     margin-left: 10px;
     border-radius: 99px;
     font-weight: 600;
-    background-image: linear-gradient(to right,rgb(125, 60, 152,0.8),rgb(40, 116, 166,0.8));
+    background: linear-gradient(to right,rgb(23, 32, 42),rgb(86, 101, 115));
     border: none;
     color: rgb(255,255,255,0.9);
 }
@@ -297,8 +296,7 @@ a{
 
 .span-more{
     width: 100%;
-    background-color: rgb(125, 60, 152,0.8);
-    background-image: linear-gradient(to bottom,rgb(125, 60, 152,0.8),rgb(40, 116, 166,0.8));
+    background: linear-gradient(to right,rgb(23, 32, 42),rgb(86, 101, 115));
     text-align: center;
     padding: 10px;
     height: 90px;
@@ -334,9 +332,8 @@ a{
     border-radius: 99px;
     margin-bottom: 10px;
     color: rgb(255,255,255,0.9);
-    background-color: rgb(125, 60, 152,0.8);
     border: none;
-    background-image: linear-gradient(to right,rgb(125, 60, 152,0.8),rgb(40, 116, 166,0.8));
+    background: linear-gradient(to right,rgb(23, 32, 42),rgb(86, 101, 115));
     font-family: 'Comfortaa', cursive;
     font-size: 15px;
     transition: 0.3s;
@@ -372,7 +369,7 @@ a{
 
 .last-p{
     text-align: center;
-    color: rgb(125, 60, 152,0.8);
+    color: rgb(39, 55, 70);
     font-size: 13px;
     font-weight: 600;
     margin-bottom: 10px;
