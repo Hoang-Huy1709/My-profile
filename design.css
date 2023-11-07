@@ -8,6 +8,12 @@
 .body{
     font-family: 'Comfortaa', cursive;
     background-color: rgb(255,255,255,0.9);
+    display: flex;
+    justify-content: center;
+    overflow-x: hidden;
+}
+
+.all{
     position: relative;
 }
 
@@ -78,7 +84,7 @@ a{
 }
 
 .img-bg{
-    background: linear-gradient(to bottom,rgb(0,0,0,0.0),rgb(0,0,0,0.3)), url(img/bgg.jpeg) center/cover;
+    background: linear-gradient(to bottom,rgb(0,0,0,0.0),rgb(0,0,0,0.3)), url(img/bg_image.jpg) center/cover;
     height: 240px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -159,7 +165,7 @@ a{
 .full-name{
     position: absolute;
     font-family: 'Square Peg', cursive;
-    color: rgb(23, 32, 42);
+    color: rgb(91, 44, 111);
     font-weight: 600;
     font-size: 33px;
     text-shadow: 2px 3px 3px rgb(23, 32, 42,0.3);
@@ -241,7 +247,7 @@ a{
     margin-left: 10px;
     border-radius: 99px;
     font-weight: 600;
-    background: linear-gradient(to right,rgb(23, 32, 42),rgb(86, 101, 115));
+    background: linear-gradient(to right,rgb(23, 32, 42),rgb(57, 33, 66));
     border: none;
     color: rgb(255,255,255,0.9);
 }
@@ -296,7 +302,7 @@ a{
 
 .span-more{
     width: 100%;
-    background: linear-gradient(to right,rgb(23, 32, 42),rgb(86, 101, 115));
+    background: linear-gradient(to right,rgb(23, 32, 42),rgb(57, 33, 66));
     text-align: center;
     padding: 10px;
     height: 90px;
@@ -333,7 +339,7 @@ a{
     margin-bottom: 10px;
     color: rgb(255,255,255,0.9);
     border: none;
-    background: linear-gradient(to right,rgb(23, 32, 42),rgb(86, 101, 115));
+    background: linear-gradient(to right,rgb(23, 32, 42),rgb(57, 33, 66));
     font-family: 'Comfortaa', cursive;
     font-size: 15px;
     transition: 0.3s;

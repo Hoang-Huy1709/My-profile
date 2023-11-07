@@ -1,5 +1,10 @@
 /* iphone 6/7/8 */
 @media screen  and (min-width:375px){
+
+    .all{
+        width: 100%;
+    }
+
     .img-bg{
         height: 220px;
     }
@@ -38,6 +43,11 @@
 
 /* iphone 6/7/8 plus */
 @media screen  and (min-width:414px){
+
+    .all{
+        width: 100%;
+    }
+
     .number{
         bottom: -7px;
     }
@@ -59,6 +69,11 @@
 
 /* iphone x */
 @media screen  and (min-height:812px){
+
+    .all{
+        width: 100%;
+    }
+
     .img-bg{
         height: 250px;
     }
@@ -85,6 +100,10 @@
 
 /* Small tablet */
 @media screen  and (min-width:600px){
+
+    .all{
+        width: 100%;
+    }
 
     .img-pr{
         left: 37%;
@@ -113,6 +132,11 @@
 
 /* ipad */
 @media screen  and (min-width:768px){
+
+    .all{
+        width: 100%;
+    }
+
     .img-bg{
         height: 330px;
     }
@@ -166,6 +190,10 @@
         left: 53%;
         top: 385px;
     }
+
+    .all{
+        width: 100%;
+    }
 }
 
 /* ipad pro */
@@ -174,4 +202,9 @@
         left: 48%;
         top: 372px;
     }
+
+    .all{
+        width: 60%;
+    }
+
 }
