@@ -80,10 +80,16 @@
 
     .contact-bt , .follow-bt{
         width: 165px;
+        font-size: 12px;
     }
 
     .span-more{
         height: 100px;
+        font-size: 12px;
+    }
+
+    .more-icon{
+        margin-top: 10px;
     }
 
     .container_date{
@@ -94,6 +100,12 @@
     .active_status{ 
         left: 62%;
         top: 260px;
+    }
+
+    .ct-bt{
+        height: 45px;
+        border-radius: 10px;
+        font-size: 12px;
     }
     
 }
